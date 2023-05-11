@@ -118,4 +118,21 @@ var altura = 1.8;
 
 var novaAlt = altura.toString();
 
-console.log();
+/* Elementos do DOM */
+
+var btn = document.querySelector('.btn');
+
+btn.classList.add("azul") // adiciona a classe azul
+btn.innerText; // Click
+btn.addEventListener('click', function() {
+  console.log("clicou")
+})
+
+/* Praticamente tokdos os efeitos com JS são feitos ultilizando propiedades e métodos de objetos DOM. */
+
+/* OBJETOS REVOLUCIONARAM A PROGRAMAÇÃO
+
+Web API's são métodos e propiedades que permitem a ineração JavaScript e Browser.
+*/
+
+
